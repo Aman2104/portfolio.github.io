@@ -56,7 +56,7 @@ nightbtn.addEventListener("click", ()=>{
         btns[i].classList.remove("bg-light")
         btns[i].classList.remove("neonChange")
         btns[i].classList.add("bg-dark")
-        document.getElementsByClassName("pro")[0].classList.add("proLight")
+        document.getElementsByClassName("pro")[0].classList.remove("proLight")
         
     }
 })
