@@ -40,7 +40,9 @@ daybtn.addEventListener("click", ()=>{
     document.getElementsByTagName("body")[0].classList.add("bg-light")
     for (let i = 0; i < btns.length; i++) {
         btns[i].classList.add("bg-light")
+        btns[i].classList.add("neonChange")
         btns[i].classList.remove("bg-dark")
+        document.getElementsByClassName("pro")[0].classList.add("proLight")
         
     }
 })
@@ -52,7 +54,9 @@ nightbtn.addEventListener("click", ()=>{
 
     for (let i = 0; i < btns.length; i++) {
         btns[i].classList.remove("bg-light")
+        btns[i].classList.remove("neonChange")
         btns[i].classList.add("bg-dark")
+        document.getElementsByClassName("pro")[0].classList.add("proLight")
         
     }
 })

@@ -219,6 +219,7 @@ button a{
     /* margin-right: 50px; */
     border:0.1px solid #03e9f4;
 }
+
 button{
     border: none;
 }
@@ -229,6 +230,34 @@ button a:hover{
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
                 0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
+.proLight{
+    color: #3f51b5;
+    font-size: 1.5em;
+}
+.neonChange a{
+    position: relative;
+    display: inline-block;
+    padding: 20px 20px;
+    /* margin: 20px 0; */
+    color: #3f51b5;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    /* margin-right: 50px; */
+    border:0.1px solid #3f51b5;
+}
+.neonChange a:hover{
+    background: #3f51b5;
+    color: #050801;
+    box-shadow: 0 0 5px #3f51b5,
+                0 0 25px #3f51b5,
+                0 0 50px #3f51b5,
+                0 0 200px #3f51b5;
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
 
