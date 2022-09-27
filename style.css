@@ -328,6 +328,9 @@ button a:hover{
     .about{
         padding: 0 10px;
     }
+	.show{
+	margin-top : 25px;
+	}
 }
 
 
