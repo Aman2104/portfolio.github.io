@@ -315,6 +315,9 @@ button a:hover{
         flex-wrap: wrap;
     }
 }
+
+
+
 @media screen and (max-width: 600px) {
     .container1{
         height: auto;
@@ -336,3 +339,6 @@ button a:hover{
 
 
 
+.card-body p{
+	height: 100px;
+}
