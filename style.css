@@ -26,7 +26,7 @@ li a{
     /* color: aliceblue; */
     display: grid;
     height: 70px;
-    grid-template-columns: 1.5fr 2fr 1.5fr;
+    grid-template-columns: 1.5fr 2fr 1fr;
     padding-bottom: 0 !important;
 }
 
@@ -101,7 +101,7 @@ li a{
         --bs-gutter-x: 0!important;
     }
     .heading{
-        padding-top: 20px;
+        padding-top: 24px;
     }
     .grid {
         display: block;
@@ -315,6 +315,9 @@ button a:hover{
         flex-wrap: wrap;
     }
 }
+
+
+
 @media screen and (max-width: 600px) {
     .container1{
         height: auto;
@@ -328,8 +331,14 @@ button a:hover{
     .about{
         padding: 0 10px;
     }
+	.show{
+	margin-top : 25px;
+	}
 }
 
 
 
 
+.card-body p{
+	height: 100px;
+}
