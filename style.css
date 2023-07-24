@@ -45,6 +45,11 @@ li a{
     cursor: pointer;
     display: inline;
     border-radius: 8px;
+    color : black;
+    
+}
+.list-link a {
+    text-decoration: none;
 }
 .show{
     display: none;
